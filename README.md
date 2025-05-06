@@ -5,10 +5,10 @@ PCCList is a dynamic, Python-style list implementation in C++ capable of storing
 ## What it supports?
 
 The list supports:
-[x] Indexed access: `L[0]`
-[x] Mutation: `L[1] = 99`
-[x] Iteration: `for (auto v : L)`
-[x] Type-safe retrieval via `.get<T>(index)` and `.try_get<T>(index)`
+- [x] Indexed access: `L[0]`
+- [x] Mutation: `L[1] = 99`
+- [x] Iteration: `for (auto v : L)`
+- [x] Type-safe retrieval via `.get<T>(index)` and `.try_get<T>(index)`
 
 ## How to use it?
 
@@ -35,11 +35,11 @@ PCCList internally stores elements in a `std::vector<std::any>`, allowing hetero
 
 ## TODOS for future
 
-[] Support for nested lists (e.g., lists of lists)
-[] JSON-style output or serialization
-[] Optional typed mode with compile-time enforcement
-[] Lots of Optimizations
-[] Fuzz Testing using LibFuzzer
+- [] Support for nested lists (e.g., lists of lists)
+- [] JSON-style output or serialization
+- [] Optional typed mode with compile-time enforcement
+- [] Lots of Optimizations
+- [] Fuzz Testing using LibFuzzer
 
 ## Contributing
 
